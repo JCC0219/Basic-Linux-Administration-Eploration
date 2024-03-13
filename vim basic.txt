@@ -1,0 +1,51 @@
+basic commnad:
+
+vim [file_name]	enter a file
+vimtutor	test file from vim, free to edit
+
+:		command
+i,I,a,A,o O	insert mode
+v		visual
+H,J,K,L		Arrow Key
+X		delete char
+dd		delete line
+U		undo
+ctrl + r	redo
+esc		back to normal mode
+shift + p	paste from system clipboard
+y		copy
+
+
+saving and quitting:
+
+:q		quite
+:q! 		discard changes and quit
+:w		save
+:wq		write and quit
+:!		run command, eg. :ls
+
+r		to recover file if unexpected exit
+
+
+vim editor preference:
+
+:set number	show row number
+:[number]	navigate to specific row number
+
+
+
+searching command:
+
+/[STRING] + ENTER	will highlight matches string
+?[STRING] + ENTER	search backward
+n, N 			next/ previous match
+gg			no top of file
+G 			navigate to end of file
+
+multiwindow:
+
+vim -o [ file1 ] [ file2 ]	enter multiwindow mode
+vimdiff [ file1] [ file2]	enter different mode
+
+ctrl + w 			chenge window
+
